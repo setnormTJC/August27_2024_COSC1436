@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASCII art demo", "ASCII art
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoingSomeSystemCommands", "DemoingSomeSystemCommands\DemoingSomeSystemCommands.vcxproj", "{B8E51E77-7DF3-45AF-87F9-EFC0FAFA8478}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fuel_Lab", "Fuel_Lab\Fuel_Lab.vcxproj", "{4E211ABF-0E54-4C81-BC2C-2B5C6A3A8368}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{B8E51E77-7DF3-45AF-87F9-EFC0FAFA8478}.Release|x64.Build.0 = Release|x64
 		{B8E51E77-7DF3-45AF-87F9-EFC0FAFA8478}.Release|x86.ActiveCfg = Release|Win32
 		{B8E51E77-7DF3-45AF-87F9-EFC0FAFA8478}.Release|x86.Build.0 = Release|Win32
+		{4E211ABF-0E54-4C81-BC2C-2B5C6A3A8368}.Debug|x64.ActiveCfg = Debug|x64
+		{4E211ABF-0E54-4C81-BC2C-2B5C6A3A8368}.Debug|x64.Build.0 = Debug|x64
+		{4E211ABF-0E54-4C81-BC2C-2B5C6A3A8368}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E211ABF-0E54-4C81-BC2C-2B5C6A3A8368}.Debug|x86.Build.0 = Debug|Win32
+		{4E211ABF-0E54-4C81-BC2C-2B5C6A3A8368}.Release|x64.ActiveCfg = Release|x64
+		{4E211ABF-0E54-4C81-BC2C-2B5C6A3A8368}.Release|x64.Build.0 = Release|x64
+		{4E211ABF-0E54-4C81-BC2C-2B5C6A3A8368}.Release|x86.ActiveCfg = Release|Win32
+		{4E211ABF-0E54-4C81-BC2C-2B5C6A3A8368}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
