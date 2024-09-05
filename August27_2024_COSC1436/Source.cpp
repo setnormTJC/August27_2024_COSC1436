@@ -10,6 +10,13 @@ using namespace std;
 
 int main()
 {
+
+	//std::locale l("");
+
+	//cout.imbue(l); 
+
+	//cout << 123456 << "\n";
+
 	//int x = 32; 
 
 	//print("adsfkjsdkjdj13758696"); 
