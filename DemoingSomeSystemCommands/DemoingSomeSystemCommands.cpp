@@ -13,14 +13,14 @@ void demoPrayKitty()
 void demoOpenWebPage()
 {
     system("start https://vimeo.com/375468729");
-}
+} //abstraction - hiding //abstraction (information hiding) -> OOP
 
 
 int main()
 {
-    //demoPrayKitty(); 
+    demoPrayKitty(); 
 
-    demoOpenWebPage(); 
+    //demoOpenWebPage(); 
 
     std::cout << "Hello World!\n";
 }
