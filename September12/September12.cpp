@@ -53,14 +53,29 @@ int main()
 
     //cout << "Total price is: " << totalPrice << "\n";
 
-    cout << "enter your name: \n"; 
-    string yourName; 
-    cin >> yourName; 
-    //getline(cin, yourName); 
+    while (true)
+    {
+        cout << "enter your name (first, middle initial, last name): \n";
+        string firstName;
+        char middleInitial;
+        string lastName;
 
-    //echo user's input back at them (getch) 
 
-    cout << "You entered: " << yourName << "\n\n\n\n\n";
+        cin >> firstName >> middleInitial >> lastName;
+
+        //cin >> yourName; //cin (by default) reads up to the first space
+        //getline(cin, yourName); 
+
+        //echo user's input back at them (getch) 
+        cout << "First name registered as:"  << firstName << "\n";
+        cout << "Middle init: " << middleInitial << "\n";
+        cout << "Last name entered was: " << lastName << "\n"; 
+
+        system("pause"); 
+        //cin.clear
+        system("CLS"); //clears the screen 
+    }
+
 
 
 
